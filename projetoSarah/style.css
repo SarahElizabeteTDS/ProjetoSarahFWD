@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Ubuntu",sans-serif;
+}
+
+body
+{
+    background-color: #DDF2FD;
+    color: #DDF2FD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cabecalhoLinksConteudo
+{
+    display: flex;
+    flex-direction: column;
+    block-size: 100%;
+}
+
+.cabecalhoLinks
+{ 
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.divCabecalho
+{
+    padding-inline-start: 40px;
+    display: flex;
+    background-color: #057a85;
+    flex-direction: column;
+    inline-size: 16vw;
+    block-size: 70vh;
+}
+
+.divCabecalho h1
+{
+    padding-block-start: 30px;
+}
+
+.divLinks, .areaLinks
+{
+    padding-block-start: 78px;
+    padding-inline-start: 40px;
+    display: flex;
+    background-color: #057a85;
+    flex-direction: column;
+    inline-size: 20vw;
+    block-size: 70vh;
+}
+
+.divConteudo
+{
+    block-size: 14.9vw;
+    display: flex;
+    background-color: #057a85;
+    padding-inline-start: 40px;
+    flex-direction: column;
+}
+
+.divConteudo textarea
+{
+    inline-size: 700px;
+    block-size: 200px;
+    border-radius: 12px;
+    padding: 6px;
+}
+
+.divConteudo select
+{
+    border-style: none;
+    border-radius: 10px;
+    inline-size: 20vh;
+    block-size: 2vh;
+}
+
+.opcoesConteudoUm
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-block-end: 10px;
+    gap: 10px;
+    
+}
+
+.opcoesConteudoDois
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-block-end: 20px;
+    gap: 10px;
+}
+
+.divCabecalho select
+{
+    border-style: none;
+    border-radius: 10px;
+    inline-size: 20vh;
+    block-size: 2vh;
+}
+
+
+#textoCabecalho
+{
+    border-style: none;
+    border-radius: 10px;
+    inline-size: 20vh;
+    block-size: 2vh;
+}
+
+
+#links
+{
+    border-style: none;
+    border-radius: 10px;
+    inline-size: 20vh;
+    block-size: 2vh; 
+}
+
+.areaLinks select, .divLinks select
+{
+    border-style: none;
+    border-radius: 10px;
+    inline-size: 20vh;
+    block-size: 2vh;
+    flex-direction: column;
+}
+
+
+.gerarCodigo, .renderIframe
+{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.gerarCodigo button, .renderIframe button
+{
+    color: #057a85;
+    inline-size: 15vh;
+    block-size: 5vh;
+    background-color: #DDF2FD;
+    border-style: none;
+    border-radius: 10px;
+    margin-block-end: 24px;
+}
+
+.gerarCodigo button:hover, .renderIframe button:hover
+{
+    background-color: #becfdf;
+}
+
+.botoes
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-block-start: 70px;
+}
+
+.caixasCodigos
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-inline-end: 5vh;
+    gap: 20px;
+    color: #057a85;
+    margin-block-start: 40px;
+}
+
+.caixaCodigo textarea
+{
+    border-radius: 15px;
+    padding: 10px;
+    inline-size: 860px;
+    block-size: 360px;
+}
+
+.caixaCodigo button
+{
+    color: #057a85;
+    inline-size: 15vh;
+    block-size: 3vh;
+    background-color: #cfdfee;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.caixaCodigo button:hover
+{
+    background-color: #becfdf;
+}
+
+input
+{
+    padding: 3px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+.divCabecalho input, .divConteudo input 
+{
+    padding: 3px;
+    border-radius: 15px;
+    border-style: none;
+    inline-size: 20vh;
+}
+
+.inputs 
+{
+    float: inline-start;
+    clear: none;
+}
+
+.hrefButton
+{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 5px 5px 0px;
+}
+
+.buttonHref
+{
+    inline-size: 30px;
+    block-size: 20px;
+    margin: 3px;
+    
+}
+
+#containerCodPreview
+{
+    inline-size: 100%;
+    block-size: 100vh; 
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#pagina 
+{
+    inline-size: 62vw;
+    block-size: 97vh;
+}
+
+.content
+{
+    display: none;
+    inline-size: 100%;
+    block-size: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+} 
+
+.active
+{
+    display: block;
+}
