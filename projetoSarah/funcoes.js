@@ -100,8 +100,14 @@ function removeHref()
     var div = document.querySelector(".hrefButtonInput");
     var inputText = document.getElementById('links');
     var inputFile = document.getElementById('href');
-    if (inputText) div.removeChild(inputText);
-    if (inputFile) div.removeChild(inputFile);
+    if (inputText)
+    {
+       div.removeChild(inputText); 
+    } 
+    if (inputFile)
+    {
+       div.removeChild(inputFile); 
+    } 
 }
 
 function gerarCodigo()
